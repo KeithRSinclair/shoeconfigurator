@@ -1,24 +1,25 @@
+import { useRef, useState } from 'react';
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls, useGLTF } from '@react-three/drei';
+
+
+//Css and Images
+//import material1 from './images/material1.jpg';
 import './index.css';
-import Card from 'react-bootstrap/Card';
-
-
-import material1 from './images/material1.jpg';
-
+import { WireframeGeometry } from 'three';
 
 
 function App() {
   return (
     <div className="App">
       <h1> &nbsp;Landing Page</h1>
-      <Card>
-        <Card.Img variant="top" src={material1} />
-        <Card.Body>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-        </Card.Body>
-      </Card>
+      <Canvas>
+        <mesh>
+          <boxGeometry attach='geometry' args={[2, 2, 2]} />
+          <meshStandardMaterial wireframe />
+          <OrbitControls />
+        </mesh>
+      </Canvas>
     </div>
   );
 }
