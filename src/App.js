@@ -1,12 +1,11 @@
-import { useRef, useState } from 'react';
+//import { useRef, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, useGLTF } from '@react-three/drei';
+import { OrbitControls } from '@react-three/drei'; //useGLTF
 
 
 //Css and Images
 //import material1 from './images/material1.jpg';
 import './index.css';
-import { WireframeGeometry } from 'three';
 
 
 function App() {
