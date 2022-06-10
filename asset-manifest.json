@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/shoeconfigurator/static/css/main.e6c13ad2.css",
-    "main.js": "/shoeconfigurator/static/js/main.10d3bfdc.js",
+    "main.css": "/shoeconfigurator/static/css/main.e9b7edc7.css",
+    "main.js": "/shoeconfigurator/static/js/main.c9891f42.js",
+    "static/media/material1.jpg": "/shoeconfigurator/static/media/material1.2aa9f9c7c427d1d47cba.jpg",
     "index.html": "/shoeconfigurator/index.html",
-    "main.e6c13ad2.css.map": "/shoeconfigurator/static/css/main.e6c13ad2.css.map",
-    "main.10d3bfdc.js.map": "/shoeconfigurator/static/js/main.10d3bfdc.js.map"
+    "main.e9b7edc7.css.map": "/shoeconfigurator/static/css/main.e9b7edc7.css.map",
+    "main.c9891f42.js.map": "/shoeconfigurator/static/js/main.c9891f42.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.10d3bfdc.js"
+    "static/css/main.e9b7edc7.css",
+    "static/js/main.c9891f42.js"
   ]
 }
